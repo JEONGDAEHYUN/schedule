@@ -10,7 +10,8 @@ API 명세서
 
 ERD
 ------
-![ERD](https://github.com/user-attachments/assets/c61d9169-34aa-430c-9577-ed2b1b3b612b)
+![ERD](https://github.com/user-attachments/assets/ff371578-e119-4136-a078-59d375559c69)
+
 
 https://www.erdcloud.com/d/WfodqEtyJB6D663po
 
