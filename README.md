@@ -26,13 +26,13 @@ CREATE TABLE schedule(
     todo VARCHAR(100) NULL, -- 해당 colum 에 NULL 값을 허용하지 않는다.
     name VARCHAR(100) NULL,
     password VARCHAR(100) NULL,
-    create_data DATETIME NULL,
-    edit_data DATETIME NULL,
+    create_date DATETIME NULL,
+    edit_date DATETIME NULL,
     PRIMARY KEY (id) -- 테이블 내에서 각각의 행을 고유하게 식별하는 id
     );
 
 -- 일정 생성 (SQL 명령어 + 테이블 명 + (컬럼 명))
-INSERT INTO schedule (todo, name, password, create_data, edit_data)
+INSERT INTO schedule (todo, name, password, create_date, edit_date)
 
 
 -- 전체 일정 조회 (*: 모든 열을 선택한다.)
