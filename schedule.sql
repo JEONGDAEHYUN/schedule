@@ -15,7 +15,7 @@ INSERT INTO schedule (todo, name, password, create_date, edit_date)
 VALUES ('강의 듣기', 'jdh', '1', '2024-11-04', NOW());
 
 -- 전체 일정 조회 (*: 모든 열을 선택한다.)
-SELECT * FROM schedule s
+SELECT * FROM schedule s -- schedule을 s 로 생략한다.
 WHERE s.edit_date = '2024-11-04'
 OR s.name = 'jdh'
 ORDER BY s.edit_date DESC; -- 수정일 기준 내림차순으로 조회
